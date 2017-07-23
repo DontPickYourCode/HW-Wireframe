@@ -1,0 +1,79 @@
+Body
+Header, nav, and footer
+Section
+Aside
+Article
+.clear
+Your text elements: h1, p, etc.
+
+body{
+  background-color:#777;
+  text-align: center;
+}
+
+header{
+  float: right;
+  position: relative;
+  left: -50%;
+  background-color:#ebebeb;
+  text-align: center;
+      clear: both;
+}
+
+nav{
+  float: right;
+  position: relative;
+  left: -50%;
+  background-color:#ebebeb;
+  text-align: center;
+      clear: both;
+}
+
+section{
+  background-color:#ebebeb;
+  float: left;
+  position: relative;
+  left: -50%; /* or right 50% */
+  background-color:#ebebeb;
+  text-align: center;
+  clear:left;
+}
+
+aside{
+  background-color:#ebebeb;
+    text-align: center;
+    clear:right;
+}
+
+article{
+  background-color:#777;
+    text-align: center;
+    clear:both;
+}
+
+h1{
+  background-color:#ebebeb;
+}
+
+h2{
+  background-color:#ebebeb;
+ }
+
+h3{
+  background-color:#ebebeb;
+}
+
+p{
+  background-color:#ebebeb;
+    text-align: center;
+        clear:both;
+}
+
+footer{
+ float: right;
+  position: relative;
+  left: -50%;
+  background-color:#ebebeb;
+  text-align: center;
+      clear:both;
+}
